@@ -31,6 +31,21 @@ header a {
   text-decoration-line: none;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("images/rocky-outcrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("images/peak-district-landscape.jpg");
