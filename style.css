@@ -32,10 +32,12 @@ header a {
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
     url("images/rocky-outcrop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 ul {
