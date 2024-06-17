@@ -71,6 +71,17 @@ footer p {
   opacity: 0.6;
 }
 
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 80px 170px;
+  grid-gap: 60px;
+}
+
+.grid-col-1 {
+  line-height: 2;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("images/peak-district-landscape.jpg");
