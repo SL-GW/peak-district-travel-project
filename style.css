@@ -5,20 +5,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
+header h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 1;
   margin: 30px 0;
 }
 
-h2 {
+header h2 {
   font-size: 40px;
   font-weight: 400;
   line-height: 1.5;
   margin: 0;
 }
-h3 {
+header h3 {
   font-size: 24px;
   font-weight: 900;
   letter-spacing: 5px;
@@ -26,16 +26,47 @@ h3 {
   margin: 0;
 }
 
-h4 {
+footer h4 {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
   color: #ffffff;
 }
 
+main h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #272044;
+  margin: 18px 0;
+}
+
+main h5 {
+  color: #272044;
+  opacity: 0.3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
 header a {
   color: #272044;
   text-decoration-line: none;
+}
+
+main {
+  margin: 0px 120px;
+}
+
+main p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
 }
 
 footer {
@@ -93,6 +124,7 @@ footer p {
   background-size: cover;
   color: #ffffff;
   margin: 0 auto;
+  margin-bottom: 100px;
   max-width: 1400px;
   padding: 200px 0;
   text-align: center;
@@ -113,23 +145,53 @@ footer p {
   width: 180px;
 }
 
+.section-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 0px;
   }
-  h1 {
+  header h1 {
     font-size: 50px;
   }
 
-  h2 {
+  header h2 {
     font-size: 20px;
   }
-  h3 {
+  header h3 {
     font-size: 14px;
+  }
+
+  .hero {
+    margin-bottom: 0px;
   }
   .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 30px 50px;
+  }
+
+  .section-one {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  main {
+    margin: 50px 10px;
+  }
+
+  main h5 {
+    margin-top: 10px;
+  }
+
+  .section-one-paragraph {
+    text-align: center;
   }
 }
