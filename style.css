@@ -45,6 +45,13 @@ main h3 {
   margin-top: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #272044;
+}
+
 main h5 {
   color: #272044;
   opacity: 0.3;
@@ -56,8 +63,12 @@ main h5 {
   text-transform: uppercase;
 }
 
-main {
-  margin: 0px 120px;
+main h6 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
 }
 
 main p {
@@ -155,6 +166,7 @@ footer p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 60px;
+  margin: 0px 120px;
 }
 
 .responsive-image {
@@ -172,6 +184,11 @@ footer p {
 
 .section-two {
   margin-top: 20px;
+}
+
+.section-two-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 960px) {
@@ -201,6 +218,7 @@ footer p {
   .section-one {
     grid-template-columns: 1fr;
     grid-gap: 0px;
+    margin: 30px;
   }
   main {
     margin: 50px 10px;
