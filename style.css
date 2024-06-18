@@ -1,6 +1,3 @@
-:root {
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -26,11 +23,9 @@ header h3 {
   margin: 0;
 }
 
-footer h4 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #ffffff;
+header a {
+  color: #272044;
+  text-decoration-line: none;
 }
 
 main h2 {
@@ -39,6 +34,15 @@ main h2 {
   line-height: 1.2;
   color: #272044;
   margin: 18px 0;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  margin-top: 0;
 }
 
 main h5 {
@@ -50,11 +54,6 @@ main h5 {
   letter-spacing: 5px;
   margin-top: 0;
   text-transform: uppercase;
-}
-
-header a {
-  color: #272044;
-  text-decoration-line: none;
 }
 
 main {
@@ -81,6 +80,13 @@ footer {
   max-width: 1400px;
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+footer h4 {
+  font-weight: 700;
+  font-size: 20px;
   line-height: 1.5;
   color: #ffffff;
 }
@@ -153,6 +159,19 @@ footer p {
 
 .responsive-image {
   max-width: 100%;
+}
+
+.section-two {
+  background-color: #f8f8f8;
+}
+
+.village {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.section-two {
+  margin-top: 20px;
 }
 
 @media (max-width: 960px) {
