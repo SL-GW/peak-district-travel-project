@@ -191,6 +191,10 @@ footer p {
     margin-top: 10px;
   }
 
+  main h2 {
+    font-size: 25px;
+  }
+
   .section-one-paragraph {
     text-align: center;
   }
