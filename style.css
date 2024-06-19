@@ -178,6 +178,8 @@ footer p {
 .section-two-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .section-two-button {
@@ -197,11 +199,15 @@ footer p {
 
 .card {
   background-color: #ffffff;
-  margin: 30px 0;
+  margin: 30px 20px;
 }
 
 .card-body {
   margin: 30px;
+}
+
+.last-paragraph-card {
+  margin-bottom: 50px;
 }
 
 .section-two-button-link {
