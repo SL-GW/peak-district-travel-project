@@ -271,4 +271,17 @@ footer p {
   .section-one-paragraph {
     text-align: center;
   }
+  .section-two-grid {
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .card {
+    margin: 0px;
+  }
+
+  .card-body {
+    margin: 10px;
+  }
 }
