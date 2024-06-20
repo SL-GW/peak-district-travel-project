@@ -320,4 +320,10 @@ footer p {
   .card-body {
     margin: 10px;
   }
+
+  .section-three-grid {
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
