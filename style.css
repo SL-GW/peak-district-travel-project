@@ -123,6 +123,18 @@ footer p {
   opacity: 0.6;
 }
 
+iframe {
+  max-height: 132px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.responsive-image {
+  width: 100%;
+}
+
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
     url("images/peak-district-landscape.jpg");
@@ -158,21 +170,14 @@ footer p {
   margin: 0px 120px;
 }
 
-.responsive-image {
-  max-width: 100%;
-}
-
 .section-two {
   background-color: #f8f8f8;
+  margin-top: 20px;
 }
 
 .village {
   text-align: center;
   padding-top: 100px;
-}
-
-.section-two {
-  margin-top: 20px;
 }
 
 .section-two-grid {
@@ -184,7 +189,6 @@ footer p {
 
 .section-two-button {
   width: 305px;
-
   padding: 16px;
   color: #ffffff;
   background-color: #462cb2;
@@ -200,6 +204,11 @@ footer p {
 .card {
   background-color: #ffffff;
   margin: 30px 20px;
+}
+
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .card-body {
@@ -227,9 +236,6 @@ footer p {
   line-height: 2;
 }
 
-.text-center {
-  text-align: center;
-}
 .section-three {
   margin: 100px 0;
 }
@@ -243,6 +249,7 @@ footer p {
 @media (max-width: 960px) {
   .hero {
     padding: 60px 0px;
+    margin-bottom: 0px;
   }
   header h1 {
     font-size: 50px;
@@ -255,9 +262,6 @@ footer p {
     font-size: 14px;
   }
 
-  .hero {
-    margin-bottom: 0px;
-  }
   .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
@@ -281,6 +285,10 @@ footer p {
     font-size: 25px;
   }
 
+  main h3 {
+    font-size: 24px;
+  }
+
   .section-one-paragraph {
     text-align: center;
   }
@@ -292,6 +300,14 @@ footer p {
 
   .card {
     margin: 0px;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  .card-header {
+    grid-template-columns: 1fr;
   }
 
   .card-body {
