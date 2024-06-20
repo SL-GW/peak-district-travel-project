@@ -227,6 +227,19 @@ footer p {
   line-height: 2;
 }
 
+.text-center {
+  text-align: center;
+}
+.section-three {
+  margin: 100px 0;
+}
+
+.section-three-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+
 @media (max-width: 960px) {
   .hero {
     padding: 60px 0px;
