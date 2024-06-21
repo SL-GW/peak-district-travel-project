@@ -188,17 +188,17 @@ footer p {
 }
 
 .section-two-button {
-  width: 305px;
-  padding: 16px;
-  color: #ffffff;
   background-color: #462cb2;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  letter-spacing: 3px;
-  text-align: center;
+  color: #ffffff;
   display: block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.5;
   margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+  width: 305px;
 }
 
 .card {
@@ -237,7 +237,7 @@ footer p {
 }
 
 .gallery-title {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
